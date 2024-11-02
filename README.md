@@ -6,12 +6,18 @@ Abaixo estão as instruções e os requisitos para cada parte do desafio. Boa so
 
 ## 📋 Sumário
 
-1. [Objetivo](##objetivo)
-2. [Instruções](##instruções)
-3. [Desafios](##desafios)
-4. [Entrega](##entrega)
+1. [Objetivo](#-objetivo)
+2. [Instruções](#-instruções)
+3. [Desafios](#-desafios)
+   - [1. Lógica de Programação e Manipulação de Dados](#1-lógica-de-programação-e-manipulação-de-dados)
+   - [2. Operações com APIs RESTful](#2-operações-com-apis-restful)
+   - [3. CRUD Simples com Banco de Dados](#3-crud-simples-com-banco-de-dados)
+   - [4. Automação de Tarefas](#4-automação-de-tarefas)
+   - [5. Validação de Dados](#5-validação-de-dados)
+4. [Observações](#-observações)
+5. [Entrega](#-entrega)
 
-### 🎯 Objetivo
+## 🎯 Objetivo
 
 Este desafio é dividido em cinco partes e foi desenvolvido para testar suas habilidades com:
 
@@ -21,16 +27,21 @@ Este desafio é dividido em cinco partes e foi desenvolvido para testar suas hab
 - Automação de tarefas
 - Validação de dados
 
-### 🚀 Instruções
+## 🚀 Instruções
 
-1. **Clone este repositório** para o seu ambiente de desenvolvimento.
-2. Crie um ambiente virtual para isolar suas dependências, e instale as bibliotecas necessárias (ex.: `requests` para chamadas de API e `sqlite3` para operações de banco de dados).
-3. Siga as instruções de cada exercício para implementar as funcionalidades pedidas.
-4. Organize seu código em funções e mantenha as instruções no arquivo `README.md` claras e fáceis de seguir.
+1- **Clone este repositório** para o seu ambiente de desenvolvimento. (Recomendamos usar o [VSCode](https://code.visualstudio.com/))
 
-### 🧩 Desafios
+```bash
+git clone https://github.com/v1cferr/teste-tecnico-python.git
+```
 
-#### 1. Lógica de Programação e Manipulação de Dados
+2- Crie um ambiente virtual para isolar suas dependências, e instale as bibliotecas necessárias (ex.: `requests` para chamadas de API e `sqlite3` para operações de banco de dados).
+3- Siga as instruções de cada exercício para implementar as funcionalidades pedidas.
+4- Organize seu código em funções e mantenha as instruções no arquivo `README.md` claras e fáceis de seguir.
+
+## 🧩 Desafios
+
+### 1. Lógica de Programação e Manipulação de Dados
 
 **Objetivo**: Criar uma função para encontrar o produto mais caro e o mais barato em um dicionário.
 
@@ -49,7 +60,7 @@ print("Mais caro:", mais_caro)
 print("Mais barato:", mais_barato)
 ```
 
-#### 2. Operações com APIs RESTful
+### 2. Operações com APIs RESTful
 
 **Objetivo**: Realizar requisições a uma API pública.
 
@@ -65,7 +76,7 @@ print("Mais barato:", mais_barato)
 - Utilize a biblioteca `requests` para fazer requisições HTTP.
 - Trate exceções para garantir que o script funcione mesmo se a API não responder.
 
-#### 3. CRUD Simples com Banco de Dados
+### 3. CRUD Simples com Banco de Dados
 
 **Objetivo**: Implementar operações básicas de CRUD em um banco de dados SQLite.
 
@@ -94,7 +105,7 @@ adicionar_usuario("Maria", "maria@email.com")
 - Use `sqlite3` para conectar ao banco.
 - Não se esqueça de incluir verificações de erro e garantir que o banco seja fechado ao final da execução.
 
-#### 4. Automação de Tarefas
+### 4. Automação de Tarefas
 
 **Objetivo**: Ler dados de um arquivo `.csv` e gerar um relatório.
 
@@ -113,7 +124,7 @@ adicionar_usuario("Maria", "maria@email.com")
 
 **Exemplo de saída**:
 
-```
+```txt
 Produtos com estoque baixo:
 - produto2 (Estoque: 3)
 - produto3 (Estoque: 0)
@@ -124,7 +135,7 @@ Produtos com estoque baixo:
 - Utilize a biblioteca `csv` para ler o arquivo e `open()` para gerar o relatório em `.txt`.
 - Use condicionais para filtrar os produtos com estoque baixo.
 
-#### 5. Validação de Dados
+### 5. Validação de Dados
 
 **Objetivo**: Verificar a validade de um endereço de e-mail.
 
@@ -147,20 +158,16 @@ print(validar_email("exemplo.com"))          # Saída: False
 
 - Utilize a biblioteca `re` para trabalhar com expressões regulares (opcional).
 
----
-
-### 📬 Entrega
-
-1. Organize todos os arquivos dentro do repositório.
-2. Atualize este `README.md` com instruções sobre como rodar cada um dos scripts.
-3. Envie o link do repositório para nosso e-mail com o assunto "Desafio Técnico - Estágio Back-end".
-
----
-
-### 📌 Observações
+## 📌 Observações
 
 - **Documentação**: Mantenha seu código bem documentado, explicando funções e parâmetros.
 - **Boas Práticas**: Use boas práticas de programação (nomes claros, organização de código e modularização).
 - **Tratamento de Erros**: Inclua tratamento de erros onde for possível para evitar que o script quebre.
+
+## 📬 Entrega
+
+1. Organize todos os arquivos dentro do repositório.
+2. Atualize este `README.md` com instruções sobre como rodar cada um dos scripts.
+3. Envie o link do repositório para nosso [e-mail](mailto:victor.ferreira@xmartsolutions.com.br) com o assunto "Desafio Técnico - Estágio Back-end".
 
 Boa sorte e esperamos que você aproveite este desafio! 🚀
