@@ -9,11 +9,11 @@ Abaixo estão as instruções e os requisitos para cada parte do desafio. Boa so
 1. [Objetivo](#-objetivo)
 2. [Instruções](#-instruções)
 3. [Desafios](#-desafios)
-   - [1. Lógica de Programação e Manipulação de Dados](#1-lógica-de-programação-e-manipulação-de-dados)
-   - [2. Operações com APIs RESTful](#2-operações-com-apis-restful)
-   - [3. CRUD Simples com Banco de Dados](#3-crud-simples-com-banco-de-dados)
-   - [4. Automação de Tarefas](#4-automação-de-tarefas)
-   - [5. Validação de Dados](#5-validação-de-dados)
+   - [Lógica de Programação e Manipulação de Dados](#1-lógica-de-programação-e-manipulação-de-dados)
+   - [Operações com APIs RESTful](#2-operações-com-apis-restful)
+   - [CRUD Simples com Banco de Dados](#3-crud-simples-com-banco-de-dados)
+   - [Automação de Tarefas](#4-automação-de-tarefas)
+   - [Validação de Dados](#5-validação-de-dados)
 4. [Observações](#-observações)
 5. [Entrega](#-entrega)
 
@@ -29,15 +29,49 @@ Este desafio é dividido em cinco partes e foi desenvolvido para testar suas hab
 
 ## 🚀 Instruções
 
-1- **Clone este repositório** para o seu ambiente de desenvolvimento. (Recomendamos usar o [VSCode](https://code.visualstudio.com/))
+1- **Clone este repositório** para o seu ambiente de desenvolvimento. (Opcional: usar o [VSCode](https://code.visualstudio.com/))
 
 ```bash
 git clone https://github.com/v1cferr/teste-tecnico-python.git
 ```
 
-2- Crie um ambiente virtual para isolar suas dependências, e instale as bibliotecas necessárias (ex.: `requests` para chamadas de API e `sqlite3` para operações de banco de dados).
-3- Siga as instruções de cada exercício para implementar as funcionalidades pedidas.
-4- Organize seu código em funções e mantenha as instruções no arquivo `README.md` claras e fáceis de seguir.
+2- Crie e ative um ambiente virtual para isolar suas dependências:
+
+**Para Windows:**
+
+```bash
+# Criar ambiente virtual
+python -m venv .venv
+
+# Ativar ambiente virtual
+.venv\Scripts\activate
+```
+
+**Para Linux/MacOS:**
+
+```bash
+# Criar ambiente virtual
+python -m venv .venv
+
+# Ativar ambiente virtual
+source .venv/bin/activate
+```
+
+3- Instale as dependências necessárias:
+
+```bash
+# Instalar bibliotecas principais
+pip install requests
+pip install pytest
+pip install python-dotenv
+
+# Opcional: salvar dependências em um arquivo
+pip freeze > requirements.txt
+```
+
+4- Siga as instruções de cada exercício para implementar as funcionalidades pedidas.
+
+5- Organize seu código em funções e mantenha as instruções no arquivo `README.md` claras e fáceis de seguir.
 
 ## 🧩 Desafios
 
